@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is JavaScript? | IT Definitions & Examples</title>
+    <meta name="description" content="Learn what JavaScript is, its uses, and see code examples. Perfect for beginners in web development.">
+    <meta name="keywords" content="JavaScript, programming, web development, JS examples">
+    <meta property="og:title" content="What is JavaScript?">
+    <meta property="og:description" content="Definition, explanation, and code examples for JavaScript.">
+    <meta property="og:image" content="https://yourusername.github.io/it-website/assets/logo.png">
+    <meta property="og:url" content="https://yourusername.github.io/it-website/pages/javascript.html">
+    <link rel="icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/prism.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is JavaScript used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "JavaScript is used for web interactivity, server-side development (Node.js), and more."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="IT Website Logo"> 🚀 IT Hub</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">🏠 Home</a></li>
+                <li><a href="javascript.html">💻 JavaScript</a></li>
+                <li><a href="git.html">🔧 Git</a></li>
+                <li><a href="sql.html">🗄️ SQL</a></li>
+                <li><a href="interview-questions.html">❓ Interview Qs</a></li>
+            </ul>
+            <button id="theme-toggle" class="btn-toggle">🌙 Toggle Dark Mode</button>
+        </div>
+    </nav>
+
+    <main>
+        <article class="content-article">
+            <h1>What is JavaScript?</h1>
+            <section class="section-card">
+                <h2>📖 Definition</h2>
+                <p>JavaScript is a high-level, interpreted programming language used to make web pages interactive.</p>
+            </section>
+            <section class="section-card">
+                <h2>🔍 Explanation</h2>
+                <p>It runs in the browser and allows dynamic content updates without reloading the page.</p>
+            </section>
+            <section class="section-card">
+                <h2>🌍 Real-World Use Case</h2>
+                <p>Used in forms for validation or in apps like Google Maps for real-time updates.</p>
+            </section>
+            <section class="section-card">
+                <h2>💻 Code Example</h2>
+                <pre><code class="language-javascript">// Hello World in JS
+console.log('Hello, World!');</code></pre>
+            </section>
+            <section class="section-card">
+                <h2>❓ FAQ</h2>
+                <details>
+                    <summary>What is JavaScript used for?</summary>
+                    <p>Web interactivity, server-side with Node.js, etc.</p>
+                </details>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 IT Website. <a href="../index.html">🏠 Back to Home</a></p>
+    </footer>
+
+    <script src="../js/prism.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
